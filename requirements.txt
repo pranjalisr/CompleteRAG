@@ -5,3 +5,5 @@ langgraph
 pymupdf
 pypdf
 cohere
+langchain-community
+beautifulsoup4
