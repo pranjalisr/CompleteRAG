@@ -1,0 +1,7 @@
+dotenv
+langchain
+langchain-groq
+langgraph
+pymupdf
+pypdf
+cohere

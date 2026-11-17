@@ -1,0 +1,31 @@
+# Secrets: API keys live here, never commit this
+.env
+.env.*
+!.env.example
+
+# Virtual environments (rebuild from requirements.txt)
+ragEnv/
+venv/
+.venv/
+
+# Local Qdrant vector DB data (generated, can get large)
+qdrant_storage/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw/source data (remove this line if you want data tracked in the repo)
+data/
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Personal scratch notes
+notes.txt
